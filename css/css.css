@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.galleryBack{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #c2e59c, #64b3f4);
+}
+
+.galleryRoot{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 100px 10px black;
+    overflow: hidden;
+}
+
+.slideContainer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.buttonLeft{
+    background-image: url("../img/buttonLeft.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+}
+
+.buttonRight{
+    background-image: url("../img/buttonRight.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+}
